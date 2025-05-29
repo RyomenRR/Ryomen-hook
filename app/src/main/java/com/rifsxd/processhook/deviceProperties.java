@@ -114,12 +114,12 @@ public final class deviceProperties {
     );
 
     // Vivo iQOO 11 Pro Profile
-    public static final deviceInfo VIVO_IQOO_NEO_10R = new deviceInfo(
+    public static final deviceInfo VIVO_IQOO_NEO_9 = new deviceInfo(
         "vivo",             // Manufacturer
-        "iqoo",             // Brand
-        "PD2318",           // Product
-        "PD2318",           // Device
-        "V2318",           // Model
+        "IQOO",             // Brand
+        "I2304T",           // Product
+        "I2304",           // Device
+        "I2304",           // Model
         "qcom",             // Hardware
         null,               // Board (optional)
         null,               // Bootloader (optional)
@@ -167,7 +167,7 @@ public final class deviceProperties {
         // Debug device mapping
         DEVICE_MAP.put("com.ytheekshana.deviceinfo", DEBUG_1);
         DEVICE_MAP.put("ru.andr7e.deviceinfohw", ROG_PHONE_8);
-        DEVICE_MAP.put("com.finalwire.aida64", VIVO_IQOO_NEO_10R);
+        DEVICE_MAP.put("com.finalwire.aida64", VIVO_IQOO_NEO_9);
 
         // Populate device map for ROG Phone 8 apps
         String[] rogPhoneApps = {
@@ -215,7 +215,7 @@ public final class deviceProperties {
             "com.tencent.KiHan",
             "com.pubg.imobile"
         };
-        addToDeviceMap(vivoApps, VIVO_IQOO_NEO_10R);
+        addToDeviceMap(vivoApps, VIVO_IQOO_NEO_9);
 
         // Populate device map for Realme GT6 5G apps
         String[] realmeApps = {
