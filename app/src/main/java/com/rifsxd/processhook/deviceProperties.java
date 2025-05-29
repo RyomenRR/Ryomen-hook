@@ -114,12 +114,12 @@ public final class deviceProperties {
     );
 
     // Vivo iQOO 11 Pro Profile
-    public static final deviceInfo VIVO_IQOO_11_PRO = new deviceInfo(
+    public static final deviceInfo VIVO_IQOO_NEO_10R = new deviceInfo(
         "vivo",             // Manufacturer
-        "vivo",             // Brand
-        "V2243A",           // Product
-        "V2243A",           // Device
-        "V2243A",           // Model
+        "iqoo",             // Brand
+        "PD2318",           // Product
+        "PD2318",           // Device
+        "V2318",           // Model
         "qcom",             // Hardware
         null,               // Board (optional)
         null,               // Bootloader (optional)
@@ -167,7 +167,7 @@ public final class deviceProperties {
         // Debug device mapping
         DEVICE_MAP.put("com.ytheekshana.deviceinfo", DEBUG_1);
         DEVICE_MAP.put("ru.andr7e.deviceinfohw", ROG_PHONE_8);
-        DEVICE_MAP.put("com.finalwire.aida64", SAMSUNG_S24_ULTRA);
+        DEVICE_MAP.put("com.finalwire.aida64", VIVO_IQOO_NEO_10R);
 
         // Populate device map for ROG Phone 8 apps
         String[] rogPhoneApps = {
@@ -188,7 +188,7 @@ public final class deviceProperties {
             "com.miraclegames.farlight84",
             "vng.games.revelation.mobile",
             "com.tencent.tmgp.pubgmhd",
-            "com.pubg.imobile",
+            "com.tencent.iglite",
             "com.miHoYo.GenshinImpact",
             "com.netease.dbdena",
             "com.netease.lztgglobal"
@@ -213,9 +213,9 @@ public final class deviceProperties {
             "com.tencent.tmgp.cod",
             "com.tencent.tmgp.cf",
             "com.tencent.KiHan",
-            "com.tencent.iglite"
+            "com.pubg.imobile"
         };
-        addToDeviceMap(vivoApps, VIVO_IQOO_11_PRO);
+        addToDeviceMap(vivoApps, VIVO_IQOO_NEO_10R);
 
         // Populate device map for Realme GT6 5G apps
         String[] realmeApps = {
