@@ -167,7 +167,7 @@ public final class deviceProperties {
         // Debug device mapping
         DEVICE_MAP.put("com.ytheekshana.deviceinfo", DEBUG_1);
         DEVICE_MAP.put("ru.andr7e.deviceinfohw", ROG_PHONE_8);
-        DEVICE_MAP.put("com.finalwire.aida64", VIVO_IQOO_NEO_9);
+        DEVICE_MAP.put("com.finalwire.aida64", ONEPLUS_12);
 
         // Populate device map for ROG Phone 8 apps
         String[] rogPhoneApps = {
@@ -212,8 +212,7 @@ public final class deviceProperties {
             "com.tencent.tmgp.gnyx",
             "com.tencent.tmgp.cod",
             "com.tencent.tmgp.cf",
-            "com.tencent.KiHan",
-            "com.pubg.imobile"
+            "com.tencent.KiHan"
         };
         addToDeviceMap(vivoApps, VIVO_IQOO_NEO_9);
 
@@ -237,7 +236,7 @@ public final class deviceProperties {
             "com.riotgames.league.wildrifttw",
             "com.riotgames.league.wildrift",
             "com.tencent.lolm",
-            "jp.konami.pesam"
+            "com.pubg.imobile"
         };
         addToDeviceMap(onePlusApps, ONEPLUS_12);
 
