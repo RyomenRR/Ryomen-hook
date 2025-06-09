@@ -218,12 +218,10 @@ public final class deviceProperties {
 
         // Populate device map for Realme GT6 5G apps
         String[] realmeApps = {
-            "com.riotgames.league.teamfighttacticsvn",
-            "com.riotgames.league.teamfighttacticstw",
-            "com.riotgames.league.teamfighttactics",
-            "com.garena.game.lmjx",
-            "com.ngame.allstar.eu",
-            "com.epicgames.fortnite",
+            "cc.honista.app",
+            "com.instander.android",
+            "com.instagram.android",
+            "com.android.chrome",
             "com.epicgames.portal"
         };
         addToDeviceMap(realmeApps, REALME_GT6_5G);
