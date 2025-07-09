@@ -53,9 +53,9 @@ public final class deviceProperties {
     public static final deviceInfo SAMSUNG_S24_ULTRA = new deviceInfo(
         "samsung",          // Manufacturer
         "samsung",          // Brand
-        "e3qxeea",          // Product
-        "SM-S928B",         // Device 
-        "SM-S928B",         // Model 
+        "gts10ultra",          // Product
+        "gts10ultra",         // Device 
+        "SM-X816B",         // Model 
         "qcom",             // Hardware
         null,               // Board (optional)
         null,               // Bootloader (optional)
