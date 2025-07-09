@@ -191,7 +191,7 @@ public final class deviceProperties {
             "com.tencent.iglite",
             "com.miHoYo.GenshinImpact",
             "com.netease.dbdena",
-            "com.netease.lztgglobal"
+            "com.pubg.imobile"
         };
         addToDeviceMap(samsungApps, SAMSUNG_S24_ULTRA);
 
@@ -233,8 +233,7 @@ public final class deviceProperties {
             "com.riotgames.league.wildriftvn",
             "com.riotgames.league.wildrifttw",
             "com.riotgames.league.wildrift",
-            "com.tencent.lolm",
-            "com.pubg.imobile"
+            "com.tencent.lolm"
         };
         addToDeviceMap(onePlusApps, ONEPLUS_12);
 
